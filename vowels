@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
+int count = 0, size;
+
+int main(){
+
+  char string[100];
+  size = sizeof(string) / sizeof(string[0]);
+
+  printf("Enter anything to count vowels: ");
+
+    fgets(string, sizeof(string), stdin);
+
+
+    for(int i = 0; i < strlen(string); i++){
+
+      switch(toupper(string[i])){
+        case 'A' :
+        case 'E' :
+        case 'I' :
+        case 'O' :
+        case 'U' :
+        count++;
+ }
+}
+printf("The vowels appeared counts: %i", count);
+
+
+
+  return 0;
+  }
