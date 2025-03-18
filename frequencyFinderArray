@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int iOccur(int arr[], int n, int size);
+
+int main() {
+    int arr[] = {1, 2, 2, 2, 3, 3};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int input = 2;
+
+    int occurrences = iOccur(arr, input, size);
+
+    if (occurrences > 0) {
+        printf("The number %i occurs %i times in the array.\n", input, occurrences);
+    } else {
+        printf("The number %i does not occur in the array.\n", input);
+    }
+
+    return 0;
+}
+
+int iOccur(int arr[], int n, int size) {
+    if (size == 0) { 
+        return 0;
+    }
+
+    
+    return (arr[size - 1] == n) + iOccur(arr, n, size - 1);
+}
