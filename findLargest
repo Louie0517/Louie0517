@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int findLargest( int array[], int size);
+
+int main(){
+    
+    int array[] = { 12, 32, 989, 23, 78, 67}, size;
+ size = sizeof(array) / sizeof(array[0]);
+ 
+ int largest = findLargest(array, size);
+    printf("%i", largest);
+    
+    return 0;
+ }
+ 
+ int findLargest( int array[], int size){
+     int largest;
+   for(int i = 0; i < size - 1; i++){
+      if(array[i] > array[i + 1]){
+        largest = array[i];
+         return largest;
+           }
+         }
+       }
+         
