@@ -1,0 +1,73 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main() {
+    int score = 0;
+    char name[100], yORn[4], ans[100];
+
+    const char *questions[] = {
+        "What is the capital of Philippines:",
+        "Who is the first president of the Philippines:",
+        "10 x 45:",
+        "What is my full name:",
+        "My Birthday:",
+        "Who killed Magellan:",
+        "What I love the most?",
+        "My age:",
+        "What is my dream country:",
+        "Which is the largest State in the US:"
+    };
+
+    const char *answer[] = {
+        "Manila",
+        "Emilio Aguinaldo",
+        "450",
+        "Brent Luwi",
+        "May 17 2006",
+        "Lapu-lapu",
+        "Wandering",
+        "18",
+        "Australia",
+        "Alaska"
+    };
+
+    int numQuests = sizeof(questions) / sizeof(questions[0]);
+
+    printf("\nWelcome to my quiz!!\n\n");
+
+    printf("Enter your name: ");
+    scanf("%s", name);
+    getchar(); 
+    printf("I have 10 questions for you: %s\n", name);
+
+    printf("Are you ready? Yes or No: ");
+    scanf("%s", yORn);
+    getchar(); 
+
+    if (strcmp(yORn, "Yes") == 0) {
+        printf("\nLet's start!\n");
+
+        for (int i = 0; i < numQuests; i++) {
+            printf("\nQuestion %d: %s\n", i + 1, questions[i]);
+            printf("Your answer: ");
+            fgets(ans, sizeof(ans), stdin);
+            ans[strcspn(ans, "\n")] = '\0'; 
+
+            if (strcmp(answer[i], ans) == 0) {
+                printf("Correct!\n");
+                score++;
+            } else {
+                printf("Wrong answer! The correct answer is: %s\n", answer[i]);
+            }
+
+            printf("Current score: %d\n", score);
+        }
+
+        printf("\nYour final score: %d\n", score);
+    } else {
+        printf("Come back again!\n");
+    }
+
+    return 0;
+}
