@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int addition();
+
+int score = 0, attempts = 5;
+
+int main(){
+srand(time(NULL));
+
+while(1){
+
+    addition();
+
+ }
+    return 0;
+}
+
+int addition( ) {
+  int first, second, answer;
+
+  first = rand() % 1000;
+  second = rand() % 1000;
+
+  printf("%i + %i", first, second);
+  int sum = first + second;
+  printf("\nEnter your answer: ");
+  scanf("%i", &answer );
+  if(sum == answer){
+    printf("correct answer.\n");
+    score++;
+    } else {
+      printf("wrong answer\n");
+     attempts = attempts - 1;
+}
+  if( attempts == 0){
+    printf("Sorry you don't have anymore attempts.");
+printf("\n");
+printf("your score is: %i", score);
+    exit(1);
+    }
+}
