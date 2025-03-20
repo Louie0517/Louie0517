@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+int player();
+void computer();
+
+  char bet[3][50] = {"PAPER", "ROCK", "SCISSORS"};
+
+int main(){
+
+  srand(time(NULL));
+
+while (1){
+    computer();
+}
+  return 0;
+  }
+
+int player(){
+  int sz = sizeof(bet) / sizeof(bet[0]);
+  char type[100];
+
+  printf("\n>>ROCK<<\n>>PAPER<<\n>>SCISSORS<<\nCHOOSE:");
+scanf(" %[^\n]", type);
+
+for(int i = 0; i < sz; i++){
+  if( strcmp(type, bet[i]) == 0)
+  return i;
+}
+
+return -1;
+  }
+
+void computer(){
+
+  int size = sizeof (bet) / sizeof (bet[0]), flag = 0;
+
+int t, plyr;
+
+plyr = player();
+
+if(plyr == -1){
+  printf("invalid choice");
+}
+
+int computer = rand() % size;
+
+
+    if(computer == plyr){
+      printf("its a tie.");
+      }
+      else if((computer == 0 && plyr == 2) || (computer == 1 && plyr == 0) || (computer == 0 && plyr == 2)){
+      printf("you win");
+      } else{
+      printf("you lose.\n");
+      printf("COMPUTER: %s", computer);
+      }
+ }
