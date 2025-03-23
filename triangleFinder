@@ -1,0 +1,94 @@
+#include <stdio.h>
+
+int equilateral();
+int isosceles();
+
+int main(){
+  
+  int true = 0, pick;
+  
+  printf("1. equilateral\n2. scalene\n");
+  printf("Enter the initial you want to perform: ");
+  scanf("%i", &pick);
+  
+  while(!true){
+    switch(pick){
+      case 1:
+        equilateral();
+        break;
+      case 2:
+        isosceles();
+        break;
+      default:
+        printf("Invalid choice");
+        break;
+      }
+      true = 1;
+     }
+  
+  return 0;
+  }
+
+int equilateral(){
+  
+  int input[3], still;
+do { 
+  printf("Input: ");
+  for(int i = 0; i < 3; i++)
+    scanf("%i", &input[i]);
+    int tempo, flag = 0;
+  for(int i = 0; i < 3; i++){
+    if(input[i] == input[i+1]){
+      tempo = input[i];
+      input[i] = input[i+1];
+      input[i+1] = input[i];
+      flag = 1;
+      break;
+      }
+     }
+     if(flag)
+     printf("equilateral\n");
+     else
+     printf("not equilateral\n");
+     
+    printf("Enter 1 to perform again 0 to exit\n");
+    scanf("%i", &still);
+    
+   } while(still == 1);
+   
+   
+  printf("Exiting the program.");
+  return 0;
+  }
+  
+int isosceles(){
+  
+  int a, b, c, wants;
+  
+ do{
+  printf("Enter the angle\n");
+  printf("angle 1: ");
+  scanf("%i", &a);
+  printf("\n");
+  printf("angle 2: ");
+  scanf("%i", &b);
+  printf("\n");
+  printf("angle 3: ");
+  scanf("%i", &c);
+  
+  if(a + b > c && a + c > b && b + c > a) {
+    printf("isosceles");
+    return 1;
+   } else {
+     printf("not a isosceles ");
+   }
+     
+  printf("\nEnter 1 to perform again 0 to exit: ");
+  scanf("%d", &wants);
+  
+}  while(wants == 1);  
+
+  printf("Exit program.");
+  return  0;
+  
+  }
