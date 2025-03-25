@@ -3,41 +3,97 @@
 #include <time.h>
 
 int addition();
+int subtraction();
 
 int score = 0, attempts = 5;
 
-int main(){
-srand(time(NULL));
+int main() {
+    srand(time(NULL));
+    int choice;
 
-while(1){
+    while (1) {
+        printf("\nChoose an option:\n");
+        printf("1. Addition\n");
+        printf("2. Subtraction\n");
+        printf("3. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
 
-    addition();
+        switch (choice) {
+            case 1:
+                addition();
+                break;
+            case 2:
+                subtraction();
+                break;
+            case 3:
+                printf("Exiting the game...\n");
+                printf("Your final score is: %d\n", score);
+                return 0;
+            default:
+                printf("Invalid choice. Please try again.\n");
+        }
+    }
 
- }
     return 0;
 }
 
-int addition( ) {
-  int first, second, answer;
+int addition() {
+    int first, second, answer;
 
-  first = rand() % 1000;
-  second = rand() % 1000;
+    first = rand() % 1000;
+    second = rand() % 1000;
 
-  printf("%i + %i", first, second);
-  int sum = first + second;
-  printf("\nEnter your answer: ");
-  scanf("%i", &answer );
-  if(sum == answer){
-    printf("correct answer.\n");
-    score++;
+    printf("%i + %i = ", first, second);
+    int sum = first + second;
+
+    scanf("%i", &answer);
+    if (sum == answer) {
+        printf("Correct answer.\n");
+        score++;
     } else {
-      printf("wrong answer\n");
-     attempts = attempts - 1;
-}
-  if( attempts == 0){
-    printf("Sorry you don't have anymore attempts.");
-printf("\n");
-printf("your score is: %i", score);
-    exit(1);
+        printf("Wrong answer. The correct answer is %i.\n", sum);
+        attempts--;
     }
+
+    if (attempts == 0) {
+        printf("Sorry, you don't have any more attempts.\n");
+        printf("Your score is: %i\n", score);
+        exit(1);
+    }
+
+    return 0;
+}
+
+int subtraction() {
+    int first, second, answer;
+
+    first = rand() % 1000;
+    second = rand() % 1000;
+
+    if (first < second) {
+        int temp = first;
+        first = second;
+        second = temp;
+    }
+
+    printf("%i - %i = ", first, second);
+    int difference = first - second;
+
+    scanf("%i", &answer);
+    if (difference == answer) {
+        printf("Correct answer.\n");
+        score++;
+    } else {
+        printf("Wrong answer. The correct answer is %i.\n", difference);
+        attempts--;
+    }
+
+    if (attempts == 0) {
+        printf("Sorry, you don't have any more attempts.\n");
+        printf("Your score is: %i\n", score);
+        exit(1);
+    }
+
+    return 0;
 }
