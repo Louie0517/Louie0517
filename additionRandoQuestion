@@ -15,7 +15,9 @@ int main() {
         printf("\nChoose an option:\n");
         printf("1. Addition\n");
         printf("2. Subtraction\n");
-        printf("3. Exit\n");
+				printf("3. Multiplication\n");
+				printf("4. Division\n");
+        printf("5. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
 
@@ -26,6 +28,12 @@ int main() {
             case 2:
                 subtraction();
                 break;
+						case 3:
+								multiplication();
+								break;
+						case 4:
+								division();
+								break;
             case 3:
                 printf("Exiting the game...\n");
                 printf("Your final score is: %d\n", score);
@@ -96,4 +104,58 @@ int subtraction() {
     }
 
     return 0;
+}
+
+int multiplication(){
+int first, second, total, answer;
+
+first = rand() % 100;
+second = rand() % 100;
+
+printf("%i * %d", first, second);
+scanf("%i", &answer);
+
+total = first * second;
+
+if(answer == total){
+	printf("correct answer\n");
+	score++;
+else {
+	printf("wrong answer"\n);
+	printf("The correct answer: %i", total);
+	attempts--;
+}
+
+if(attempt == 0){
+	printf("you dont have any available attempts\n");
+	exit(1);
+	}
+return 0;
+}
+
+int division(){
+int first, second, total, answer;
+
+first = rand() % 100;
+second = rand() % 100;
+
+printf("%i / %d",first, second);
+scanf("%i", &answer);
+
+total = first / second;
+
+if(answer == total){
+	printf("correct answer\n");
+	score++;
+else {
+	printf("wrong answer"\n);
+	printf("The correct answer: %i", total);
+	attempts--;
+}
+
+if(attempt == 0){
+	printf("you dont have any available attempts\n");
+	exit(1);
+	}
+return 0;
 }
