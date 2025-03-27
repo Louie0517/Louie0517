@@ -28,69 +28,74 @@ int main(){
     return 0;
 }
 
-void authenticationScreen(){
-    char temporaryUsername[MAXLEN];
+void authenticationScreen() {
+    char temporaryUsername[MAXCHAR];
     char temporaryPassword[MAXCHAR];
     char userInput[5];
     int valid = 0;
+    int userPosition = -1;
 
-    if(numberOfuser < MAXLEN){
-        printf("Create an account");
-        printf("\n\nUsername: ");
-        fflush(stdout);
-        scanf(" %[^\n]", temporaryUsername);
-        for(int i = 0; i < numberOfuser; i++){
-            if(strcmp(username[i], temporaryUsername) == 0){
-                printf("Username already exist. Try new one");
-                return;
-            }
+    if (numberOfuser >= MAXLEN) {
+        printf("Sorry, maximum number of users reached.\n");
+        return;
+    }
+
+    printf("Create an account\n");
+    printf("\nUsername: ");
+    scanf(" %[^\n]", temporaryUsername);
+
+    for (int i = 0; i < numberOfuser; i++) {
+        if (strcmp(username[i], temporaryUsername) == 0) {
+            printf("Username already exists. Try a new one.\n");
+            return;
         }
-        printf("\nPassword: ");
-        fflush(stdout);
-        scanf(" %[^\n]", temporaryPassword);
-        strcpy(username[numberOfuser], temporaryUsername);
-        strcpy(password[numberOfuser], temporaryPassword);
-        playerScores[numberOfuser] = 0;
-        numberOfuser++;
-        printf("\nDo you already have account?\n");
-        printf("Enter Yes if you have account already: ");
-        fflush(stdout);
-        scanf(" %[^\n]", userInput);
-        printf("\n");
-        if(strcasecmp(userInput, "YES") == 0){
-            while(!valid){
-                printf("Login\n\n");
-                printf("\n\nUsername: ");
-                fflush(stdout);
-                scanf(" %[^\n]", temporaryUsername);
-                printf("\nPassword: ");
-                fflush(stdout);
-                scanf(" %[^\n]", temporaryPassword);
-                    for(int i = 0; i < numberOfuser; i++){
-                        if(strcmp(username[i], temporaryUsername) != 0 && strcmp(password[i], temporaryPassword) == 0){
-                            printf("Incorrect username.");
-                        }
-                        else if(strcmp(username[i], temporaryUsername) == 0 && strcmp(password[i], temporaryPassword) != 0){
-                            printf("Incorrect password.");
-                        }
-                        else if (strcmp(username[i], temporaryUsername) != 0 && strcmp(password[i], temporaryPassword) != 0){
-                            printf("Incorrect username and password.");
-                        }
-                        else if(strcmp(username[i], temporaryUsername) == 0 && strcmp(password[i], temporaryPassword) == 0){
-                            system("cls");
-                            int userPosition = i;
-                            menuScreen(userPosition);
-                            valid = 1;
-                            break;
-                        }
-                    }
+    }
+
+    printf("\nPassword: ");
+    scanf(" %[^\n]", temporaryPassword);
+
+    strcpy(username[numberOfuser], temporaryUsername);
+    strcpy(password[numberOfuser], temporaryPassword);
+    playerScores[numberOfuser] = 0;
+    numberOfuser++;
+    
+    printf("\nDo you want to login? (Enter YES to login): ");
+    scanf(" %[^\n]", userInput);
+
+   
+    if (strcasecmp(userInput, "YES") == 0) {
+        int loginAttempts = 3;
+        while (loginAttempts > 0) {
+            printf("\n--- LOGIN ---\n");
+            printf("Username: ");
+            scanf(" %[^\n]", temporaryUsername);
+            printf("Password: ");
+            scanf(" %[^\n]", temporaryPassword);
+
+            for (int i = 0; i < numberOfuser; i++) {
+                if (strcmp(username[i], temporaryUsername) == 0 &&
+                    strcmp(password[i], temporaryPassword) == 0) {
+                    userPosition = i;
+                    valid = 1;
+                    break;
                 }
             }
-        }
-        else {
-                printf("Sorry, maximum number of user reached.");
-                exit(1);
+
+            if (valid) {
+                system("cls");
+                menuScreen(userPosition);
+                return;
+            } else {
+                loginAttempts--;
+                printf("Invalid username or password. %d attempts remaining.\n", loginAttempts);
             }
+        }
+
+        if (!valid) {
+            printf("Too many failed login attempts. Exiting...\n");
+            exit(1);
+        }
+    }
 }
 
 void menuScreen(int userPosition){
