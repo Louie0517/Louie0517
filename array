@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <string.h>
+
+
+int main(){
+
+  char arrays[6][100] = {
+  "mimiyuh",
+  "jake",
+  "bini",
+  "jinnie",
+  "jordan",
+  "arrays"
+  };
+
+  int size = 6;
+  char temporary[100];
+
+  for( int i = 0; i < (size - 1); i++){
+    int min = i;
+    for( int j = i + 1; j < size; j++)
+      if( strcmp(arrays[j], arrays[min]) < 0 )
+      min = j;
+
+      if(min != arrays[i]){
+        strcpy(temporary, arrays[i]);
+        strcpy(arrays[i], arrays[min]);
+        strcpy(arrays[min], temporary);
+        }
+       }
+
+        for(int i = 0; i < size; i++)
+          printf(" %s", arrays[i]);
+
+
+  return 0;
+ }
