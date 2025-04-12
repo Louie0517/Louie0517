@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+//solution
+int main(){
+  int arrayList[4], target, size, sum, temp;
+
+size = sizeof(arrayList) / sizeof (arrayList[0]);
+
+
+  printf("Input: ");
+for(int i = 0; i < size; i++){
+  scanf("%i", &arrayList[i]);
+}
+  printf("target: ");
+  scanf("%i", &target);
+
+
+
+
+  for(int i = 0; i < size; i++){
+    for(int j = i + 1; j < size; j++){
+      if(arrayList[i] + arrayList[j] == target){  printf("[%i, %i]\n", i, j); break;}
+    }
+  }
+return 0;
+
+}
