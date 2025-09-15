@@ -53,8 +53,6 @@ I'm a BSIT student passionate about technology, coding, and problem-solving. My 
 - Enjoy experimenting with **Photoshop, Adobe tools, and digital design**
 
 
-## 🙏 Thank you for reading 🙏
-
 ### 🔗 Connect with Me At
 
 
