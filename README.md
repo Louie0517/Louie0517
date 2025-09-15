@@ -1,15 +1,20 @@
 # Hi, I'm Brent 👋
 
-I'm a BSIT student passionate about coding, problem-solving, and tech exploration.  
+💻 About Me
 
+I'm a BSIT student passionate about technology, coding, and problem-solving. My goal is to become a full-stack web developer and a data analyst, combining creative web development skills with data-driven insights.
+
+🌐 Web Development: I love building responsive, interactive, and user-friendly websites using modern technologies like MERN (MongoDB, Express, React, Node.js), HTML, CSS, JavaScript, and TypeScript.
+
+📊 Data Analysis: I'm interested in analyzing data to uncover patterns and insights that help make informed decisions, using tools like Python, SQL, and visualization libraries.
+
+🚀 Growth Mindset: Continuously learning new technologies, improving coding skills, and taking on challenging projects to grow as a developer and analyst.
 ---
 
 ### 🔗 Connect with Me
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=orange)](https://leetcode.com/u/brentskie/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/brent-luwi-casas-50b002380/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://x.com/Brntlou1e)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/cxzasbrnt/)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/lateus.rigour)
 
 ---
@@ -17,15 +22,6 @@ I'm a BSIT student passionate about coding, problem-solving, and tech exploratio
 ### 📝 LeetCode Stats
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/brentskie?theme=dark&font=Fira%20Code)
-
----
-
-## 💻 Programming Languages I Use
-
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=Go&logoColor=white)
 
 ---
 
@@ -39,16 +35,7 @@ I'm a BSIT student passionate about coding, problem-solving, and tech exploratio
 
 ---
 
-## ⚡ Tech Stack (MERN)
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)
-
----
-
 ### 💻 About Me
-- 👨‍💻 Learning Python, C++, Web Dev  
+- 👨‍💻 Learning Python, C++, Web Dev, Data Analytics, Compter Vision
 - 🏆 Solving algorithm challenges on LeetCode  
 - 🎮 Building fun projects in my free time
