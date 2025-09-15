@@ -1,5 +1,13 @@
 
-# Hi, I'm Brent 👋
+## Hi, I'm Brent 👋
+
+
+### 💻 Currently working with
+- 👨‍💻 Learning Python, C++, Web Dev, Data Analytics, Compter Vision
+- 🏆 Solving algorithm challenges on LeetCode  
+- 🎮 Building fun projects in my free time
+  
+---
 
 ## ❤️ I love working and have expirienced with
 
@@ -44,13 +52,6 @@ I'm a BSIT student passionate about technology, coding, and problem-solving. My 
 📊 Data Analysis: I'm interested in analyzing data to uncover patterns and insights that help make informed decisions, using tools like Python, SQL, and visualization libraries.
 
 🚀 Growth Mindset: Continuously learning new technologies, improving coding skills, and taking on challenging projects to grow as a developer and analyst.
----
-
-### 💻 About Me
-- 👨‍💻 Learning Python, C++, Web Dev, Data Analytics, Compter Vision
-- 🏆 Solving algorithm challenges on LeetCode  
-- 🎮 Building fun projects in my free time
-  
 ---
 
 ### 🎨 Fun Facts
