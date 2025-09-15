@@ -11,6 +11,21 @@ I'm a BSIT student passionate about technology, coding, and problem-solving. My 
 🚀 Growth Mindset: Continuously learning new technologies, improving coding skills, and taking on challenging projects to grow as a developer and analyst.
 ---
 
+---
+
+### 💻 About Me
+- 👨‍💻 Learning Python, C++, Web Dev, Data Analytics, Compter Vision
+- 🏆 Solving algorithm challenges on LeetCode  
+- 🎮 Building fun projects in my free time
+  
+---
+
+### 🎨 Fun Facts
+- I love **art, creating, and editing**  
+- Enjoy experimenting with **Photoshop, Adobe tools, and digital design**
+
+
+
 ## ❤️ I love working and have expirience with
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
@@ -36,27 +51,12 @@ I'm a BSIT student passionate about technology, coding, and problem-solving. My 
 
 ---
 
-
-
----
-
-### 💻 About Me
-- 👨‍💻 Learning Python, C++, Web Dev, Data Analytics, Compter Vision
-- 🏆 Solving algorithm challenges on LeetCode  
-- 🎮 Building fun projects in my free time
-  
----
-
-### 🎨 Fun Facts
-- I love **art, creating, and editing**  
-- Enjoy experimenting with **Photoshop, Adobe tools, and digital design**
 ### 🔗 Connect with Me
-
----
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=orange)](https://leetcode.com/u/brentskie/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/brent-luwi-casas-50b002380/)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/lateus.rigour)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brentcasas0517@gmail.com)
 
-
+---
+## 🙏 Thank you for reading 🙏
