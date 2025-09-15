@@ -34,14 +34,6 @@
 
 ---
 
-### 🔗 Connect with Me
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=orange)](https://leetcode.com/u/brentskie/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/brent-luwi-casas-50b002380/)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/lateus.rigour)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brentcasas0517@gmail.com)
-
----
 
 💻 About Me
 
@@ -58,4 +50,13 @@ I'm a BSIT student passionate about technology, coding, and problem-solving. My 
 - I love **art, creating, and editing**  
 - Enjoy experimenting with **Photoshop, Adobe tools, and digital design**
 
+
 ## 🙏 Thank you for reading 🙏
+
+### 🔗 Connect with Me At
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=orange)](https://leetcode.com/u/brentskie/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/brent-luwi-casas-50b002380/)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/lateus.rigour)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brentcasas0517@gmail.com)
+
