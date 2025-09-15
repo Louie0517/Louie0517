@@ -1,32 +1,7 @@
+
 # Hi, I'm Brent 👋
 
-💻 About Me
-
-I'm a BSIT student passionate about technology, coding, and problem-solving. My goal is to become a full-stack web developer and a data analyst, combining creative web development skills with data-driven insights.
-
-🌐 Web Development: I love building responsive, interactive, and user-friendly websites using modern technologies like MERN (MongoDB, Express, React, Node.js), HTML, CSS, JavaScript, and TypeScript.
-
-📊 Data Analysis: I'm interested in analyzing data to uncover patterns and insights that help make informed decisions, using tools like Python, SQL, and visualization libraries.
-
-🚀 Growth Mindset: Continuously learning new technologies, improving coding skills, and taking on challenging projects to grow as a developer and analyst.
----
-
----
-
-### 💻 About Me
-- 👨‍💻 Learning Python, C++, Web Dev, Data Analytics, Compter Vision
-- 🏆 Solving algorithm challenges on LeetCode  
-- 🎮 Building fun projects in my free time
-  
----
-
-### 🎨 Fun Facts
-- I love **art, creating, and editing**  
-- Enjoy experimenting with **Photoshop, Adobe tools, and digital design**
-
-
-
-## ❤️ I love working and have expirience with
+## ❤️ I love working and have expirienced with
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
@@ -59,4 +34,27 @@ I'm a BSIT student passionate about technology, coding, and problem-solving. My 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brentcasas0517@gmail.com)
 
 ---
+
+💻 About Me
+
+I'm a BSIT student passionate about technology, coding, and problem-solving. My goal is to become a full-stack web developer and a data analyst, combining creative web development skills with data-driven insights.
+
+🌐 Web Development: I love building responsive, interactive, and user-friendly websites using modern technologies like MERN (MongoDB, Express, React, Node.js), HTML, CSS, JavaScript, and TypeScript.
+
+📊 Data Analysis: I'm interested in analyzing data to uncover patterns and insights that help make informed decisions, using tools like Python, SQL, and visualization libraries.
+
+🚀 Growth Mindset: Continuously learning new technologies, improving coding skills, and taking on challenging projects to grow as a developer and analyst.
+---
+
+### 💻 About Me
+- 👨‍💻 Learning Python, C++, Web Dev, Data Analytics, Compter Vision
+- 🏆 Solving algorithm challenges on LeetCode  
+- 🎮 Building fun projects in my free time
+  
+---
+
+### 🎨 Fun Facts
+- I love **art, creating, and editing**  
+- Enjoy experimenting with **Photoshop, Adobe tools, and digital design**
+
 ## 🙏 Thank you for reading 🙏
