@@ -30,7 +30,9 @@
 
 ### 📝 LeetCode Stats
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/brentskie?theme=dark&font=Fira%20Code)
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/brentskie?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="100%">
+</p>
 
 ---
 
