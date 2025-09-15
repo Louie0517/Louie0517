@@ -15,7 +15,7 @@ I'm a BSIT student passionate about coding, problem-solving, and tech exploratio
 
 ### 📝 LeetCode Stats
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/your-leetcode-username?theme=dark)
+![LeetCode Stats](https://leetcard.jacoblin.cool/brentskie?theme=dark&font=Fira%20Code)
 
 ---
 
