@@ -2,9 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3DD68C&center=true&width=500&lines=Hi%2C+I'm+Brent+Luwi+%F0%9F%91%8B;Future+ITech+Professional;Building+things+with+code" alt="Typing SVG" />
 </h1>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=brentskie&style=for-the-badge&color=388bfd&label=Profile+Views" />
-</p>
+
 
 ---
 
@@ -25,14 +23,6 @@
   <img src="https://leetcard.jacoblin.cool/brentskie?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="100%">
 </p>
 
----
-
-### `> GitHub Stats`
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=brentskie&show_icons=true&theme=github_dark&hide_border=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brentskie&layout=compact&theme=github_dark&hide_border=true" height="165" />
-</p>
 
 ---
 
