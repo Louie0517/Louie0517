@@ -1,8 +1,8 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3DD68C&center=true&width=600&lines=Hi%2C+I'm+Brent+Luwi+%F0%9F%91%8B;Future+ITech+Professional;Building+things+with+code" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=ffbb13&center=true&width=600&lines=Hi%2C+I'm+Brent+Luwi;Future+ITech+Professional;Building+things+with+code" alt="Typing SVG" />
 </h1>
 
-<p align="center">
+<p align="left">
   A passionate <strong>Information and Technology</strong> student from the Manila, Philippines 🇵🇭,<br>
   driven by curiosity and a love for building things that matter.<br>
   I craft full-stack solutions, sharpen my skills on LeetCode weekly,<br>
