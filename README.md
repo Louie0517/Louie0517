@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="right">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3DD68C&center=true&width=500&lines=Hi%2C+I'm+Brent+Luwi+%F0%9F%91%8B;Future+ITech+Professional;Building+things+with+code" alt="Typing SVG" />
 </h1>
 
@@ -32,6 +32,4 @@
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/lateus.rigour)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brentcasas0517@gmail.com)
 
----
 
-<p align="center"><i>// open to opportunities & collaborations</i></p>
